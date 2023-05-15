@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(44, 90, 22);
+}
+b{
+    color: yellow;
+}
+h1,h2,h3{
+    color: blue;
+}
+a{
+    color: red;
+    text-decoration: none; /*remove the underline*/
+}
+a:hover {
+    text-decoration: underline; /* Underline appears when hovering */
+  }
+p:first-letter {
+    font-size: 1.5em; /* 1.5 times the normal paragraph font size */
+    float: left;
+    margin-right: 6px; /* Adjust the spacing between the drop-cap and the text */
+    font-weight: bold; /* Optional: Make the drop-cap bold */
+}
+.color li:nth-child(odd) {
+    color: rgb(228, 178, 14); /* Color for odd list items */
+  }
+
+  .color li:nth-child(even) {
+    color: rgb(211, 14, 168); /* Color for even list items */
+  }
+  
+  ol li:nth-child(-n+1) {
+    order: 1;
+  }
+
+  /*
+  ol.reverse {
+    counter-reset: item;
+    list-style-type: none;
+  }
+
+  ol.reverse li:before {
+    content: counter(item) ".";
+    counter-increment: item;
+  }
