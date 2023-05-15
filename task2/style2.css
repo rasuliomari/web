@@ -1,0 +1,40 @@
+/*.flex-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.flex-container > div{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.last{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}*/
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 150px;
+    height: 200px;;
+}
+.flex-container > div{
+    font-family: tahoma;
+    font-size: 80px;
+    padding: 20px;
+    border-left: 30px dotted #33ff33;
+    margin-left: 20px;
+    background-color: antiquewhite;
+}
+.e{
+    background-color: #ffff4d !important;
+}
+.last{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

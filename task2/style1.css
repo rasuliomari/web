@@ -1,0 +1,33 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(241, 215, 180);
+    margin-top: 8px;
+}
+.flex-container > div{
+    background-color: whitesmoke;
+    color: #050505;
+    width: 200px;
+    height: 200px;
+    padding-top: 8px;
+    border-top: 4px solid #5200CC;
+    font-size: 80px;
+    font-family: Tahoma;
+    display: flex;
+    justify-content: center;
+}
+.flex-container > div:nth-child(even){
+    background-color: #dfe1e7;
+}
+.flex-container > div:nth-child(odd){
+    background-color: #66ff66;
+}
+.flex-container >div:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 8px solid red;
+    background-color: #6699ff;
+}
